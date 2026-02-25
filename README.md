@@ -109,8 +109,7 @@ The following screenshots highlight key insights from the Tableau dashboard.
 All SQL queries used for **data cleaning, validation, and analysis** are included in the repository.
 
 📂 SQL File:  
-sql_queries/cyclistic_analysis.sql
-
+[Open SQL Queries](./sql_queries/cyclistic_analysis.sql)
 ---
 
 ## 📑 Project Presentation
