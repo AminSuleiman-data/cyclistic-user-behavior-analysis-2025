@@ -6,14 +6,13 @@ This project analyzes behavioral differences between annual members and casual r
 ---
 
 ## 🎯 Business Objective
+Annual members are more profitable than casual riders.
 
-Annual members are more profitable than casual riders.  
-The goal of this analysis is to identify behavioral patterns between casual riders and members in order to design marketing strategies that convert casual riders into annual members.
+The goal of this analysis is to identify behavioral patterns between casual riders and annual members in order to design marketing strategies that convert casual riders into long-term members.
 
 ---
 
 ## 📊 Dataset
-
 Source: Public historical trip data provided by Motivate International Inc.
 
 Divvy Bike Share System (Chicago, USA)
@@ -23,34 +22,34 @@ https://divvy-tripdata.s3.amazonaws.com/index.html
 
 Dataset Details:
 
-- Period analyzed: 12 months
-- Total records processed: 5.8M+
-- Data cleaned and transformed using SQL
+- Period analyzed: 12 months  
+- Total records processed: 5.8M+  
+- Data cleaned and transformed using SQL  
 
 ---
 
 ## 🛠 Technical Workflow
 
-### 1. Data Cleaning (SQL)
+### 1️⃣ Data Cleaning (SQL)
 
-- Removed invalid rides (<1 minute or >24 hours)
+- Removed invalid rides (< 1 minute or > 24 hours)
 - Checked for duplicate records (none found)
 - Handled missing station values
 - Created ride length feature
 - Extracted hour, day, and month variables
 
-### 2. Analysis
+### 2️⃣ Analysis
 
 Behavioral comparisons between:
 
-- Members vs Casual Riders
-- Weekday vs Weekend usage
-- Seasonal demand patterns
-- Peak hour commuting behavior
-- Electric bike usage trends
-- Station traffic patterns
+- Members vs Casual Riders  
+- Weekday vs Weekend usage  
+- Seasonal demand patterns  
+- Peak hour commuting behavior  
+- Electric bike usage trends  
+- Station traffic patterns  
 
-### 3. Visualization
+### 3️⃣ Visualization
 
 Executive dashboard built using **Tableau** to highlight key insights and behavioral trends.
 
@@ -58,11 +57,11 @@ Executive dashboard built using **Tableau** to highlight key insights and behavi
 
 ## 🔍 Key Insights
 
-- Casual riders peak in **August (13x January volume)**
-- **47% of casual rides occur during summer (June–August)**
+- Casual riders peak in **August (13× January volume)**
+- **47% of casual rides occur in summer (June–August)**
 - Members show a strong **5PM commuter spike**
 - Casual riders take **longer trips on average**
-- Casual riders show a **higher preference for electric bikes**
+- Casual riders prefer **electric bikes more frequently**
 
 ---
 
@@ -70,9 +69,9 @@ Executive dashboard built using **Tableau** to highlight key insights and behavi
 
 1. Behavior-based membership discounts  
 2. Geo-targeted weekend marketing campaigns  
-3. Electric bike membership bundles  
+3. Electric-bike membership bundles  
 
-These strategies aim to increase the conversion of casual riders into long-term members.
+These strategies aim to increase conversion of casual riders into annual members.
 
 ---
 
@@ -92,15 +91,15 @@ The following screenshots highlight key insights from the Tableau dashboard.
 
 ### Comparative Trip Duration Insights
 
-![Trip Duration](Comparative Trip Duration Insights (2).png)
+![Trip Duration](trip_duration.png)
 
 ### Seasonality & Trip Volume Trends
 
-![Seasonality Trends](Seasonality & Trip Volume Trends (1).png)
+![Seasonality Trends](seasonality_trends.png)
 
 ### User Behavior & Station Traffic Overview
 
-![User Behavior](User Behavior & Station Traffic Overview (2).png)
+![User Behavior](user_behavior_station.png)
 
 ---
 
@@ -116,27 +115,26 @@ Download the presentation:
 
 ## 🧠 Skills Demonstrated
 
-- SQL Data Cleaning
-- Data Transformation
-- Feature Engineering
-- Exploratory Data Analysis
-- Business KPI Analysis
-- Revenue Impact Modeling
-- Data Storytelling
-- Tableau Dashboard Development
+- SQL Data Cleaning  
+- Data Transformation  
+- Feature Engineering  
+- Exploratory Data Analysis  
+- Business KPI Analysis  
+- Revenue Impact Modeling  
+- Data Storytelling  
+- Tableau Dashboard Development  
 
 ---
 
 ## 📁 Project Structure
 
-cyclistic-user-behavior-analysis
+cyclistic-user-behavior-analysis-2025
 
 README.md  
 Presentation Cyclistic Analysis.pdf  
-
-Comparative Trip Duration Insights (2).png  
-Seasonality & Trip Volume Trends (1).png  
-User Behavior & Station Traffic Overview (2).png  
+trip_duration.png  
+seasonality_trends.png  
+user_behavior_station.png  
 
 ---
 
