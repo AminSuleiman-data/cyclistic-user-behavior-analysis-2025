@@ -104,11 +104,20 @@ The following screenshots highlight key insights from the Tableau dashboard.
 
 ---
 
+## 🧾 SQL Queries
+
+All SQL queries used for **data cleaning, validation, and analysis** are included in the repository.
+
+📂 SQL File:  
+sql_queries/cyclistic_analysis.sql
+
+---
+
 ## 📑 Project Presentation
 
 A full presentation summarizing the analysis, insights, and business recommendations is available below.
 
-📥 Download the presentation:
+📥 Download or open the presentation:
 
 [Open Presentation](./Presentation%20Cyclistic%20Analysis.pdf)
 
@@ -133,9 +142,13 @@ cyclistic-user-behavior-analysis-2025
 
 README.md  
 Presentation Cyclistic Analysis.pdf  
+
 trip_duration.png  
 seasonality_trends.png  
 user_behavior_station.png  
+
+sql_queries  
+   cyclistic_analysis.sql
 
 ---
 
