@@ -107,9 +107,9 @@ The following screenshots highlight key insights from the Tableau dashboard.
 
 A full presentation summarizing the analysis, insights, and business recommendations is available below.
 
-Download the presentation:
+📥 Download the presentation:
 
-[Presentation Cyclistic Analysis](Presentation Cyclistic Analysis.pdf)
+[Open Presentation](./Presentation%20Cyclistic%20Analysis.pdf)
 
 ---
 
