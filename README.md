@@ -33,6 +33,7 @@ Dataset Details:
 ### 1️⃣ Data Cleaning (SQL)
 
 - Removed invalid rides (< 1 minute or > 24 hours)
+- Data validation checks confirmed that no negative ride durations were present (ended_at < started_at)
 - Checked for duplicate records (none found)
 - Handled missing station values
 - Created ride length feature
